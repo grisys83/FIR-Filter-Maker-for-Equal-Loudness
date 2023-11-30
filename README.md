@@ -14,7 +14,7 @@ wave
 These can be installed via pip using the command: pip install numpy scipy wave.
 
 ## Implementation Details
-Executing python fir_filter.py initiates the script to generate a total of 2766 WAV files, starting from 60.0-80.0_filter.wav to 90.0_90.0_filter.wav. The numbers before and after the '-' in the file names represent the two phon curves used to calculate the gain for creating the FIR filters. The script automatically generates 300 curves between 60.0 and 90.0 phon based on the ISO 226:2003 standard. It then normalizes these curves at 1 kHz and calculates the difference to determine the gain values for the EQ FIR filter. Cubic spline interpolation is also employed for smoother transitions between frequencies.
+Executing python fir_filter.py initiates the script to generate a total of 2766 WAV files, starting from 60.0-80.0_filter.wav to 90.0_90.0_filter.wav. The numbers before and after the '-' in the file names represent the two phon curves used to calculate the gain for creating the FIR filters. The script automatically generates 400 curves between 60.0 and 100.0 phon based on the ISO 226:2003 standard. It then normalizes these curves at 1 kHz and calculates the difference to determine the gain values for the EQ FIR filter. Cubic spline interpolation is also employed for smoother transitions between frequencies.
 
 ## License and Acknowledgments
 This script is released under the GNU General Public License version 3 (GPLv3).
