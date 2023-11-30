@@ -2,7 +2,7 @@
 Generating FIR filters to balance tones at low volumes.
 
 ## Overview
-This script, FIR_LOUDNESS.py, is designed to generate Finite Impulse Response (FIR) filters based on ISO 226:2003 equal-loudness contours. The primary purpose is to create EQ adjustments that maintain a consistent tonal balance at lower volume levels, typically in the range of 80 to 90 dB. 2766 WAV-files can be used in Equalizer APO <https://equalizerapo.com> and APO-loudness <https://github.com/grisys83/APO-Loudness>, or other convolution hosts such as Easy Convolver <https://www.genuinesoundware.com/?a=showproduct&b=49>.
+This script, FIR_LOUDNESS.py, is designed to generate Finite Impulse Response (FIR) filters based on ISO 226:2003 equal-loudness contours. The primary purpose is to create EQ adjustments that maintain a consistent tonal balance at lower volume levels, typically in the range of 60 to 80 dB. 2766 WAV-files can be used in Equalizer APO <https://equalizerapo.com> and APO-loudness <https://github.com/grisys83/APO-Loudness>, or other convolution hosts such as Easy Convolver <https://www.genuinesoundware.com/?a=showproduct&b=49>.
 
 ## Dependencies
 To run this script, you need the following Python libraries:
