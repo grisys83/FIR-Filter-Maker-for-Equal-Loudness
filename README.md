@@ -20,6 +20,7 @@ If running the python script seems cumbersome, you can download the pre-generate
 
 ## License and Acknowledgments
 This script is released under the GNU General Public License version 3 (GPLv3).
+The data for ISO 226:2003 equal-loudness contours was sourced from Andrew Hunt's repository at <https://github.com/andrewjhunt/equal-loudness>. We deeply appreciate it.
 
 ## Contact Information
 For questions or feedback regarding this script, please contact 136304138+grisys83@users.noreply.github.com
