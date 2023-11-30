@@ -18,6 +18,8 @@ Executing python FIR_LOUDNESS.py initiates the script to generate a total of 276
 
 If running the python script seems cumbersome, you can download the pre-generated WAV format FIR filters from the releases section.
 
+Note: The 'FIR_LOUDNESS_2023.py' script utilizes data from ISO 226:2023 for equal-loudness contours. However, it references the 2003 version for 16000 Hz and 20000 Hz data, as the 2023 edition lacks information for these frequencies.
+
 ## License and Acknowledgments
 This script is released under the GNU General Public License version 3 (GPLv3).
 The data for ISO 226:2003 equal-loudness contours was sourced from Andrew Hunt's repository at <https://github.com/andrewjhunt/equal-loudness>. We deeply appreciate it.
