@@ -64,7 +64,7 @@ def design_fir_filter_from_phon_levels(phon1, phon2, numtaps, fs):
 
     db_diff = np.array(fine_curves[phon2]) - np.array(fine_curves[phon1])
     reference_db_diff = db_diff[iso_freq.index(1000)]
-    relative_gains_db = reference_db_diff - db_diff
+    relative_gains_db = db_diff - reference_db_diff
     relative_gains_linear = 10 ** (relative_gains_db / 20)
     
     print(fine_curves[phon2])
